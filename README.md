@@ -1,18 +1,11 @@
 # Volkswagen We Connect ID [ONLY FOR EUROPE]
-forked from mitch-dc/volkswagen_we_connect_id
-Added acceptable support to use the integration with a Volkswagen e-up! but the technical solution is far from optimal.
-I only added the model to be supported (the entities to be created) and a change for HA not to throw up on a
-nonexistent API endpoint. I am not a python expert, and this will be hopefully be solved by the original author eventually.
 
-**This component will set up the following platforms.**
+## forked from mitch-dc/volkswagen_we_connect_id
 
-Platform | Description
--- | --
-`sensor` | Show information from your Volkswagen ID car.
-`button` | Start climatization in your Volkswagen ID car.
-
-![image](https://user-images.githubusercontent.com/15835274/149675681-a0c6804c-3179-4fd3-ad74-ab489c8986dd.png)
-
+Added acceptable support to use the integration with a Volkswagen e-up!
+but the technical solution is far from optimal. I only added the model to
+be supported (the entities to be created) and a change for HA not to throw
+up on a nonexistent API endpoint.
 
 ## Installation
 
