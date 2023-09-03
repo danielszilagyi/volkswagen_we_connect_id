@@ -64,7 +64,7 @@ class TargetSoCNumber(VolkswagenIDBaseEntity, NumberEntity):
         """Return the value reported by the number."""
         return int(
             get_object_value(
-                self.data.domains["charging"]["chargingSettings"].currentSOC_pct.value
+                self.data.domains["charging"]["batteryStatus"].currentSOC_pct.value
             )
         )
 
