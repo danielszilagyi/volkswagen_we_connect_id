@@ -1,5 +1,8 @@
 # Volkswagen We Connect ID [ONLY FOR EUROPE]
-_Volkswagen We Connect ID sensor provides statistics from the Volkswagen ID Api thru [WeConnect-python lib](https://pypi.org/project/weconnect/)._
+forked from mitch-dc/volkswagen_we_connect_id
+Added acceptable support to use the integration with a Volkswagen e-up! but the technical solution is far from optimal.
+I only added the model to be supported (the entities to be created) and a change for HA not to throw up on a
+nonexistent API endpoint. I am not a python expert, and this will be hopefully be solved by the original author eventually.
 
 **This component will set up the following platforms.**
 
